@@ -1,5 +1,6 @@
-echo ".vs/" >> .gitignore
-echo ".obj/" >> .gitignore
-echo ".bin/" >> .gitignore
-echo "PortfolioAPI.csproj.user" >> .gitignore
-echo ".gitignore" >> .gitignore
+.vs/
+bin/
+obj/
+
+*.user
+*.suo
